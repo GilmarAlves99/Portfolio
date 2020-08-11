@@ -284,18 +284,15 @@ input.apagar {
 
 @media (max-width: 480px) {
     /* estilos aqui */
-    body {
-        margin-left: 20%;
-    }
     div.caixa {
         top: 40px;
         background-color: rgba(0, 0, 255, 0.637);
-        width: 75vw;
+        width: 85vw;
         height: 70vh;
     }
     img.minhafoto {
-        width: 35vw;
-        height: 35vh;
+        width: 40vw;
+        height: 40vh;
     }
     .caixa p,
     h1,
@@ -311,7 +308,7 @@ input.apagar {
     .formulario {
         margin-left: 5%;
         height: 80vh;
-        width: 10vw;
+        width: 40vw;
     }
     input.enviar,
     input.apagar {
