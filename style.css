@@ -13,7 +13,7 @@ body {
 
 .container {
     position: relative;
-    width: 1100px;
+    width: 1200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,7 +23,7 @@ body {
 
 .top {
     position: absolute;
-    top: 1%;
+    top: 20px;
 }
 
 .menu ul {
@@ -224,11 +224,16 @@ top: 8px;
 }
 */
 
+div.contato {
+    width: 400px;
+    height: 450px;
+}
+
 .formulario {
     position: relative;
-    top: 100px;
+    top: 60px;
     width: 400px;
-    height: 500px;
+    height: 400px;
     border: 2px solid rgba(0, 0, 0, 0.377);
     box-shadow: 2px 2px 2px rgb(0, 0, 0);
     border-radius: 30px;
@@ -274,4 +279,120 @@ input.apagar {
     width: 70px;
     height: 25px;
     cursor: pointer;
+}
+
+
+/* Telefones em paisagem e abaixo */
+
+@media (max-width: 480px) {
+    /* estilos aqui */
+    div.caixa {
+        background-color: rgba(0, 0, 255, 0.637);
+    }
+    .caixa p,
+    h1,
+    h3 {
+        color: #ffffff;
+        text-shadow: 1px 1px 10px;
+    }
+    div.contato {
+        position: relative;
+        top: -10px;
+        height: 80vh;
+    }
+    .formulario {
+        height: 70vh;
+    }
+    input.enviar,
+    input.apagar {
+        position: relative;
+        top: 5px;
+        width: 100px;
+        height: 40px;
+    }
+}
+
+
+/* Telefones em paisagem a tablet em retrato */
+
+@media (min-width: 481px) and (max-width: 767px) {
+    /* estilos aqui */
+    div.caixa {
+        margin-top: 15px;
+        background-color: rgba(255, 0, 0, 0.815);
+        width: 80vw;
+        height: 65vh;
+    }
+    .caixa p,
+    h1,
+    h3 {
+        color: #ffffff;
+        text-shadow: 1px 1px 10px;
+    }
+    img.minhafoto {
+        width: 45vw;
+        height: 45vh;
+    }
+    div.contato {
+        position: relative;
+        top: -10px;
+        height: 75vh;
+    }
+    .formulario {
+        height: 70vh;
+    }
+    input.enviar,
+    input.apagar {
+        position: relative;
+        top: 5px;
+        width: 90px;
+        height: 30px;
+    }
+}
+
+
+/* Tablet em retrato a paisagem e desktop */
+
+@media (min-width: 768px) and (max-width: 979px) {
+    /* estilos aqui */
+    div.caixa {
+        background-color: rgba(0, 217, 255, 0.219);
+    }
+    .caixa p,
+    h1,
+    h3 {
+        color: #000000;
+        text-shadow: 1px 1px 10px;
+    }
+    div.contato {
+        position: relative;
+        top: -10px;
+        height: 80vh;
+    }
+    .formulario {
+        height: 70vh;
+    }
+    input.enviar,
+    input.apagar {
+        position: relative;
+        top: 5px;
+        width: 100px;
+        height: 40px;
+    }
+}
+
+
+/* Desktop grande */
+
+@media (min-width: 980px) and (max-width: 1200px) {
+    /* estilos aqui */
+    div.caixa {
+        background-color: rgb(129, 127, 127);
+    }
+    .caixa p,
+    h1,
+    h3 {
+        color: #ffffff;
+        text-shadow: 1px 1px 10px;
+    }
 }
