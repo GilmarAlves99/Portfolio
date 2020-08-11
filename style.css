@@ -308,7 +308,7 @@ input.apagar {
     .formulario {
         margin-left: 8%;
         width: 330px;
-        height: 500px;
+        height: 450px;
     }
     input.enviar,
     input.apagar {
@@ -318,7 +318,7 @@ input.apagar {
         height: 40px;
     }
     textarea {
-        width: 60vw;
+        width: 70vw;
     }
 }
 
