@@ -291,8 +291,8 @@ input.apagar {
         height: 70vh;
     }
     img.minhafoto {
-        width: 40vw;
-        height: 40vh;
+        width: 45vw;
+        height: 45vh;
     }
     .caixa p,
     h1,
@@ -308,7 +308,7 @@ input.apagar {
     .formulario {
         margin-left: 5%;
         height: 80vh;
-        width: 85vw;
+        width: 95vw;
     }
     input.enviar,
     input.apagar {
