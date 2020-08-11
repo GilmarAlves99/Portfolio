@@ -290,8 +290,8 @@ input.apagar {
     div.caixa {
         top: 40px;
         background-color: rgba(0, 0, 255, 0.637);
-        width: 75vw;
-        height: 70vh;
+        width: 60vw;
+        height: 75vh;
     }
     img.minhafoto {
         width: 35vw;
