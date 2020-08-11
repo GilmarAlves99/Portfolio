@@ -290,7 +290,7 @@ input.apagar {
     div.caixa {
         top: 40px;
         background-color: rgba(0, 0, 255, 0.637);
-        width: 70vw;
+        width: 75vw;
         height: 70vh;
     }
     img.minhafoto {
@@ -311,7 +311,7 @@ input.apagar {
     .formulario {
         margin-left: 5%;
         height: 80vh;
-        width: 95vw;
+        width: 10vw;
     }
     input.enviar,
     input.apagar {
