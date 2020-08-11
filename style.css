@@ -5,6 +5,7 @@
 }
 
 body {
+    background-color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,6 +13,7 @@ body {
 
 .container {
     position: relative;
+    width: 1200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,7 +61,7 @@ body {
 .sobre {
     position: relative;
     margin-top: 30px;
-    width: 80vw;
+    width: 100%;
     height: 400px;
     display: flex;
     justify-content: center;
@@ -285,14 +287,7 @@ input.apagar {
 @media (max-width: 480px) {
     /* estilos aqui */
     div.caixa {
-        top: 40px;
         background-color: rgba(0, 0, 255, 0.637);
-        width: 75vw;
-        height: 70vh;
-    }
-    img.minhafoto {
-        width: 35vw;
-        height: 35vh;
     }
     .caixa p,
     h1,
@@ -303,12 +298,10 @@ input.apagar {
     div.contato {
         position: relative;
         top: -10px;
-        height: 85vh;
+        height: 80vh;
     }
     .formulario {
-        margin-left: 5%;
-        height: 80vh;
-        width: 80vw;
+        height: 70vh;
     }
     input.enviar,
     input.apagar {
@@ -316,9 +309,6 @@ input.apagar {
         top: 5px;
         width: 100px;
         height: 40px;
-    }
-    textarea {
-        width: 60vw;
     }
 }
 
@@ -331,7 +321,7 @@ input.apagar {
         margin-top: 15px;
         background-color: rgba(255, 0, 0, 0.815);
         width: 80vw;
-        height: 70vh;
+        height: 65vh;
     }
     .caixa p,
     h1,
@@ -346,10 +336,10 @@ input.apagar {
     div.contato {
         position: relative;
         top: -10px;
-        height: 85vh;
+        height: 75vh;
     }
     .formulario {
-        height: 75vh;
+        height: 70vh;
     }
     input.enviar,
     input.apagar {
