@@ -284,6 +284,9 @@ input.apagar {
 
 @media (max-width: 480px) {
     /* estilos aqui */
+    body {
+        margin-left: 20%;
+    }
     div.caixa {
         top: 40px;
         background-color: rgba(0, 0, 255, 0.637);
