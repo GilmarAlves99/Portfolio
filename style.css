@@ -286,7 +286,7 @@ input.apagar {
     /* estilos aqui */
     div.caixa {
         top: 40px;
-        background-color: rgba(0, 0, 255, 0.637);
+        background-color: rgba(4, 4, 5, 0.637);
         width: 85vw;
         height: 70vh;
     }
@@ -328,10 +328,10 @@ input.apagar {
 @media (min-width: 481px) and (max-width: 767px) {
     /* estilos aqui */
     div.caixa {
-        margin-top: 15px;
+        top: 30px;
         background-color: rgba(255, 0, 0, 0.815);
         width: 80vw;
-        height: 70vh;
+        height: 50vh;
     }
     .caixa p,
     h1,
@@ -340,8 +340,8 @@ input.apagar {
         text-shadow: 1px 1px 10px;
     }
     img.minhafoto {
-        width: 45vw;
-        height: 45vh;
+        width: 35vw;
+        height: 34vh;
     }
     div.contato {
         position: relative;
